@@ -5,6 +5,7 @@ keytool -list -keystore cacerts.bks -storetype BKS -provider org.bouncycastle.jc
 
 keytool -keystore cacerts.bks -storetype BKS -provider org.bouncycastle.jce.provider.BouncyCastleProvider -providerpath "libs/bcprov-jdk15on-147.jar" -storepass changeit 
 
-keytool -importcert -v -trustcacerts -file "cacert.pem" -alias ca -keystore "cacerts.bks" -provider org.bouncycastle.jce.provider.BouncyCastleProvider -providerpath "libs/bcprov-jdk15on-147.jar" -storetype BKS -storepass changeit
-
+keytool -importcert -v -trustcacerts -file "cacert.pem" -sebagai ca -keystore "cacerts.bks" -provider org.bouncycastle.jce.provider.BouncyCastleProvider -providerpath "libs / bcprov-jdk15on-147.jar" -storetype BKS -storepass berubah
+key pem
+signature
 
